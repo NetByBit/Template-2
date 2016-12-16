@@ -1,0 +1,61 @@
+.footer {
+    background-color: $dark-color;
+    color: darken($light-color, 30%);
+    padding: 40px 0;
+    overflow: hidden;
+    .col {
+        width: 25%;
+        float: left;
+        h2 {
+            color: $light-color;
+            font-size: 18px;
+        }
+        p {
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+        i {
+            display: inline-block;
+            color: $light-color;
+            padding: 10px;
+            border: 1px solid darken($light-color, 30%);
+            width: 40px;
+        }
+    }
+    .tags {
+        span {
+            display: inline-block;
+            color: $light-color;
+            padding: 10px;
+            border: 1px solid darken($light-color, 30%);
+            margin-right: 5px;
+            margin-bottom: 7px;
+        }
+    }
+    .recent {
+        > div {
+            overflow: hidden;
+            margin-bottom: 15px;
+            img {
+                float: left;
+                margin-right: 10px;
+            }
+            h4 {
+                margin: 8px 0;
+                color: $light-color;
+            }
+        }
+    }
+    .blog {
+        ul {
+            li {
+                padding: 15px;
+                color: $light-color;
+                border-bottom: 1px solid darken($light-color, 30%);
+            }
+        }
+    }
+    .copyright {
+        margin-top: 30px;
+    }
+}
