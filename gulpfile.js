@@ -38,10 +38,10 @@ gulp.task('sass', function(){
 });
 
 gulp.task('styles', function() {
-  var main = gulp.src(['css/**/*.css', '!css/styles.css', '!css/jquery.bxslider.css'])
+  var main = gulp.src(['css/**/*.css', '!css/styles.css', '!css/jquery.bxslider.css', '!css/magnific-popup.css'])
     .pipe(cssTasks())
 
-  var sec = gulp.src(['css/styles.css', 'css/jquery.bxslider.css'])
+  var sec = gulp.src(['css/styles.css', 'css/jquery.bxslider.css', 'css/magnific-popup.css'])
 
 
   return merge(main, sec)
