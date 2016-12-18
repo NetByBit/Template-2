@@ -1,0 +1,45 @@
+{
+  "name": "template-2",
+  "version": "1.0.0",
+  "description": "a simple template using HTML CSS JQ SCSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/merodiro/Template-2.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "js",
+    "scss",
+    "template"
+  ],
+  "author": "Amr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/merodiro/Template-2/issues"
+  },
+  "homepage": "https://github.com/merodiro/Template-2#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.5",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-cache": "^0.4.5",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^2.0.0",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-if": "^2.0.2",
+    "gulp-image": "^2.7.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.0.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-uncss": "^1.0.6",
+    "lazypipe": "^1.0.1",
+    "merge2": "^1.0.2",
+    "run-sequence": "^1.2.2"
+  }
+}
